@@ -1,0 +1,199 @@
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar-contecnt {
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    padding: 10px;
+}
+
+a:link {
+    color: dodgerblue;
+}
+
+a:visited {
+    color: darkred;
+}
+
+.header {
+    padding: 20px;
+}
+
+.header h1 {
+    text-align: center;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+.articles {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.articles .head h2 {
+    color: white;
+}
+
+.articles .main-text {
+    color: white;
+}
+
+.articles-group {
+
+}
+
+.articles .image {
+    margin-bottom: 20px;
+}
+
+.articles .main-text {
+    margin-bottom: 20px;
+}
+
+.articles-group .article {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.articles-group .article h1{
+    color: white;
+    text-align: left;
+}
+
+.articles-group .article .text{
+    color: white;
+    text-align: left;
+    color: white;
+}
+
+.article-list {
+    margin-left: 50px;
+}
+
+.article-list li {
+    list-style-type: none;
+    color: white;
+}
+
+.contact {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contact-form{
+    width: 10%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .head {
+        padding: 17px;
+    }
+
+    .contact-form{
+        width: 100%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .head {
+        padding: 17px;
+    }
+
+    .contact-form{
+        width: 100%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .head {
+        padding: 17px;
+    }
+
+    .contact-form{
+        width: 70%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body {
+        padding: 10px;
+    }
+
+    .head {
+        padding: 17px;
+    }
+
+    .contact-form{
+        width: 100%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body {
+        padding: 10px;
+    }
+
+    .head {
+        padding: 17px;
+    }
+
+    .contact-form{
+        margin-top: 30px;
+        width: 26%;
+    }
+
+    .contact-form label {
+        color:white;
+    }
+
+    .contact-form .form-text {
+        color: #949494;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .head {
+        padding: 17px;
+    }
+
+    .contact-form{
+        width: 100%;
+    }
+
+    .title {
+        font-size: 21px;
+    }
+}

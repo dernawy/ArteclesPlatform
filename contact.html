@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="js/navbar.js"></script>
+    <title>Contact page</title>
+</head>
+<body>
+    <div class="navbar-content">
+
+    </div>
+    <div class="contact">
+        <div class="header">
+            <h1>Contact Page</h1>
+        </div>
+
+        <div class="contact-form">
+            <form action="">
+                <div class="contact-image mb-3">
+                    <img src="https://placehold.co/600x400/png" alt="numéro sur fond gris">
+                </div>
+                <div class="mb-3">
+                    <label for="idFname" class="form-label">Nom</label>
+                    <input type="text" class="form-control" id="idFname" aria-describedby="fNamelHelp" placeholder="Entrez votre nom">
+                    <div id="fNamelHelp" class="form-text">Ecrivez votre nom de famille</div>
+                </div>
+                <div class="mb-3">
+                    <label for="idLname" class="form-label">Prénom</label>
+                    <input type="text" class="form-control" aria-describedby="lNamelHelp" id="idLname">
+                    <div id="lNamelHelp" class="form-text">Ecrivez votre prénom</div>
+                </div>
+                <div class="mb-3">
+                    <label for="idEmail" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="idEmail" aria-describedby="emaillHelp" placeholder="Entrez votre email">
+                    <div id="emaillHelp" class="form-text">Ecrivez votre address email</div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="telInput" class="form-label">Téléphone</label>
+                    <input type="phone" class="form-control" id="telInput" aria-describedby="tellHelp" placeholder="Entrez votre numéro de téléphone">
+                    <div id="tellHelp" class="form-text">Ecrivez votre numéro de téléphone</div>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Ajouter</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
